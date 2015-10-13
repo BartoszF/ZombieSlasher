@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projekt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/Projekt" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wfatal-errors" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-std=c99 -Wall -Werror -static -lm" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wfatal-errors" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-pg" />
+			<Add option="-g" />
+			<Add option="-std=c99 -Wall -Werror -static -lm -static-libgcc -mwindows" />
+			<Add option="-DDEBUG" />
+			<Add directory="allegro/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-pg -lgmon" />
+			<Add option="-mwindows" />
+			<Add library="allegro\lib\liballegro-4.4.2-md.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-md-debug.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-md.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-md-debug.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-mt.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-mt-debug.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-static-md.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-static-md-debug.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-static-mt.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-monolith-static-mt-debug.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-mt.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-mt-debug.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-static-md.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-static-md-debug.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-static-mt.a" />
+			<Add library="allegro\lib\liballegro-4.4.2-static-mt-debug.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-md.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-md-debug.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-mt.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-mt-debug.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-static-md.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-static-md-debug.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-static-mt.a" />
+			<Add library="allegro\lib\liballegrogl-0.4.4-static-mt-debug.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-md.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-md-debug.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-mt.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-mt-debug.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-static-md.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-static-md-debug.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-static-mt.a" />
+			<Add library="allegro\lib\libjpgalleg-2.6-static-mt-debug.a" />
+			<Add library="allegro\lib\libloadpng-1.5-md.a" />
+			<Add library="allegro\lib\libloadpng-1.5-md-debug.a" />
+			<Add library="allegro\lib\libloadpng-1.5-mt.a" />
+			<Add library="allegro\lib\libloadpng-1.5-mt-debug.a" />
+			<Add library="allegro\lib\libloadpng-1.5-static-md.a" />
+			<Add library="allegro\lib\libloadpng-1.5-static-md-debug.a" />
+			<Add library="allegro\lib\libloadpng-1.5-static-mt.a" />
+			<Add library="allegro\lib\libloadpng-1.5-static-mt-debug.a" />
+			<Add library="allegro\lib\liblogg-1.0-md.a" />
+			<Add library="allegro\lib\liblogg-1.0-md-debug.a" />
+			<Add library="allegro\lib\liblogg-1.0-mt.a" />
+			<Add library="allegro\lib\liblogg-1.0-mt-debug.a" />
+			<Add library="allegro\lib\liblogg-1.0-static-md.a" />
+			<Add library="allegro\lib\liblogg-1.0-static-md-debug.a" />
+			<Add library="allegro\lib\liblogg-1.0-static-mt.a" />
+			<Add library="allegro\lib\liblogg-1.0-static-mt-debug.a" />
+			<Add library="allegro\lib\libogg-1.2.1-static-md.a" />
+			<Add library="allegro\lib\libogg-1.2.1-static-md-debug.a" />
+			<Add library="allegro\lib\libogg-1.2.1-static-mt.a" />
+			<Add library="allegro\lib\libogg-1.2.1-static-mt-debug.a" />
+			<Add library="allegro\lib\libpng-1.4.0-static-md.a" />
+			<Add library="allegro\lib\libpng-1.4.0-static-md-debug.a" />
+			<Add library="allegro\lib\libpng-1.4.0-static-mt.a" />
+			<Add library="allegro\lib\libpng-1.4.0-static-mt-debug.a" />
+			<Add library="allegro\lib\libvorbis-1.3.2-static-md.a" />
+			<Add library="allegro\lib\libvorbis-1.3.2-static-md-debug.a" />
+			<Add library="allegro\lib\libvorbis-1.3.2-static-mt.a" />
+			<Add library="allegro\lib\libvorbis-1.3.2-static-mt-debug.a" />
+			<Add library="allegro\lib\libvorbisfile-1.3.2-static-md.a" />
+			<Add library="allegro\lib\libvorbisfile-1.3.2-static-md-debug.a" />
+			<Add library="allegro\lib\libvorbisfile-1.3.2-static-mt.a" />
+			<Add library="allegro\lib\libvorbisfile-1.3.2-static-mt-debug.a" />
+			<Add library="allegro\lib\libzlib-1.2.5-static-md.a" />
+			<Add library="allegro\lib\libzlib-1.2.5-static-md-debug.a" />
+			<Add library="allegro\lib\libzlib-1.2.5-static-mt.a" />
+			<Add library="allegro\lib\libzlib-1.2.5-static-mt-debug.a" />
+		</Linker>
+		<Unit filename="GameManager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GameManager.h" />
+		<Unit filename="States/mainmenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="States/mainmenu.h" />
+		<Unit filename="States/options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="States/options.h" />
+		<Unit filename="animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="animation.h" />
+		<Unit filename="config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="config.h" />
+		<Unit filename="helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="helpers.h" />
+		<Unit filename="hero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hero.h" />
+		<Unit filename="level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="level.h" />
+		<Unit filename="list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="list.h" />
+		<Unit filename="loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="loop.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zombie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zombie.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger>
+				<search_path add="C:\Users\Kebab\Documents\WdPC\Projekt\Projekt\" />
+				<search_path add="obj\Release" />
+				<search_path add="bin\Release" />
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

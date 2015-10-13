@@ -1,0 +1,733 @@
+# depslib dependency file v1.0
+1388614160 source:c:\users\kebab\documents\wdpc\projekt\projekt\main.c
+	<allegro.h>
+	"config.h"
+	"loop.h"
+
+1114367174 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1267646860 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1387644553 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\internal\alconfig.h
+	<stdint.h>
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/alpspcfg.h"
+	"allegro/platform/astdint.h"
+
+1387644393 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\alplatf.h
+
+1107299532 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1181994748 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1256081700 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1256057142 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1256057142 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1256057142 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1224527246 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1107299532 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1181994748 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\alosxcfg.h
+
+1181994748 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1255799396 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro/platform/alunixac.h"
+
+1224577334 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\alpspcfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1387644418 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1224577334 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\unicode.h
+	"base.h"
+
+1136077786 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\config.h
+	"base.h"
+
+1090960402 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\debug.h
+	"base.h"
+
+1233517338 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\mouse.h
+	"base.h"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\timer.h
+	"base.h"
+
+1102143388 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\keyboard.h
+	"base.h"
+
+1073677796 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\joystick.h
+	"base.h"
+
+1005098806 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\palette.h
+
+1236666436 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1097991932 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1107299532 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\fixed.h
+	"base.h"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1144552048 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\al386gcc.h
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\al386vc.h
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\platform\al386wat.h
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\color.inl
+
+1257769444 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1199162458 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1144552048 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\compiled.h
+	"base.h"
+
+1105910088 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\text.h
+	"base.h"
+
+1165893276 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\font.h
+	"base.h"
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1104434866 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\gui.h
+	"base.h"
+
+1142730334 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1142730334 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\digi.h
+	"base.h"
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\stream.h
+	"base.h"
+
+1142730334 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\midi.h
+	"base.h"
+
+1199306364 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\file.h
+	"base.h"
+
+1110312016 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\lzss.h
+	"base.h"
+
+1136077786 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\datafile.h
+	"base.h"
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1130567698 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1007249570 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\matrix.inl
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\quat.h
+	"base.h"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\3dmaths.inl
+
+1261307456 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\alcompat.h
+
+1036104984 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1110272124 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\allegro\inline\fix.inl
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro.h
+	"allegro/base.h"
+	"allegro/system.h"
+	"allegro/debug.h"
+	"allegro/unicode.h"
+	"allegro/mouse.h"
+	"allegro/timer.h"
+	"allegro/keyboard.h"
+	"allegro/joystick.h"
+	"allegro/palette.h"
+	"allegro/gfx.h"
+	"allegro/color.h"
+	"allegro/draw.h"
+	"allegro/rle.h"
+	"allegro/compiled.h"
+	"allegro/text.h"
+	"allegro/font.h"
+	"allegro/fli.h"
+	"allegro/config.h"
+	"allegro/gui.h"
+	"allegro/sound.h"
+	"allegro/file.h"
+	"allegro/lzss.h"
+	"allegro/datafile.h"
+	"allegro/fixed.h"
+	"allegro/fmaths.h"
+	"allegro/matrix.h"
+	"allegro/quat.h"
+	"allegro/3d.h"
+	"allegro/3dmaths.h"
+	"allegro/alcompat.h"
+	"allegro/fix.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\base.h
+	<errno.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"internal/alconfig.h"
+
+1306740300 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\internal\alconfig.h
+	"allegro/platform/alplatf.h"
+	"allegro/platform/aldjgpp.h"
+	"allegro/platform/alwatcom.h"
+	"allegro/platform/almngw32.h"
+	"allegro/platform/aldmc.h"
+	"allegro/platform/albcc32.h"
+	"allegro/platform/almsvc.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/albecfg.h"
+	"allegro/platform/almaccfg.h"
+	"allegro/platform/alosxcfg.h"
+	"allegro/platform/alqnxcfg.h"
+	"allegro/platform/alucfg.h"
+	"allegro/platform/alpspcfg.h"
+	"allegro/platform/astdint.h"
+
+1306112434 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\alplatf.h
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\aldjgpp.h
+	<pc.h>
+	<dir.h>
+	<dpmi.h>
+	<go32.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/farptr.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1306740294 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\albecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\almaccfg.h
+	<MacTypes.h>
+	<QuickDraw.h>
+	<FCntl.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\alosxcfg.h
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\alqnxcfg.h
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<unistd.h>
+
+1306108624 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro/platform/alunixac.h"
+
+1306108624 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\alpspcfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\system.h
+	"base.h"
+	"unicode.h"
+	"config.h"
+	"inline/system.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\unicode.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\config.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\system.inl
+	"allegro/debug.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\debug.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\mouse.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\timer.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\keyboard.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\joystick.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\palette.h
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\gfx.h
+	"3d.h"
+	"base.h"
+	"fixed.h"
+	"inline/gfx.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\3d.h
+	"base.h"
+	"fixed.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\fixed.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\gfx.inl
+	"allegro/debug.h"
+	"asm.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\asm.inl
+	"allegro/platform/al386gcc.h"
+	"allegro/platform/al386vc.h"
+	"allegro/platform/al386wat.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\al386gcc.h
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\al386vc.h
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\platform\al386wat.h
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\color.h
+	"base.h"
+	"palette.h"
+	"inline/color.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\color.inl
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\draw.h
+	"base.h"
+	"fixed.h"
+	"gfx.h"
+	"inline/draw.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\draw.inl
+	"allegro/debug.h"
+	"allegro/3d.h"
+	"gfx.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\rle.h
+	"base.h"
+	"gfx.h"
+	"inline/rle.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\rle.inl
+	"allegro/debug.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\compiled.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\text.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\font.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\fli.h
+	"base.h"
+	"palette.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\gui.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\sound.h
+	"base.h"
+	"digi.h"
+	"stream.h"
+	"midi.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\digi.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\stream.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\midi.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\file.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\lzss.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\datafile.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\fmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/fmaths.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\fmaths.inl
+	"asm.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\matrix.h
+	"base.h"
+	"fixed.h"
+	"fmaths.h"
+	"inline/matrix.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\matrix.inl
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\quat.h
+	"base.h"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\3dmaths.h
+	"base.h"
+	"fixed.h"
+	"inline/3dmaths.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\3dmaths.inl
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\alcompat.h
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\fix.h
+	"fixed.h"
+	"fmaths.h"
+	"inline/fix.inl"
+
+1306108626 c:\users\kebab\documents\wdpc\projekt\projekt\allegro\include\allegro\inline\fix.inl
+
+1391345707 source:c:\users\kebab\documents\wdpc\projekt\projekt\loop.c
+	"loop.h"
+	<allegro.h>
+	<stdio.h>
+	"helpers.h"
+	"config.h"
+	"level.h"
+	"hero.h"
+	"zombie.h"
+	"States/options.h"
+	"GameManager.h"
+
+1391266165 c:\users\kebab\documents\wdpc\projekt\projekt\loop.h
+	<stdbool.h>
+	<allegro.h>
+	"helpers.h"
+
+1390985305 source:c:\users\kebab\documents\wdpc\projekt\projekt\level.c
+	"level.h"
+	"loop.h"
+	"config.h"
+	"zombie.h"
+
+1389370857 c:\users\kebab\documents\wdpc\projekt\projekt\level.h
+	<allegro.h>
+	"helpers.h"
+	"config.h"
+
+1390122956 c:\users\kebab\documents\wdpc\projekt\projekt\helpers.h
+	<stdbool.h>
+
+1390752832 c:\users\kebab\documents\wdpc\projekt\projekt\config.h
+	"helpers.h"
+	"dictionary.h"
+	<allegro.h>
+	<stdio.h>
+
+1391345646 source:c:\users\kebab\documents\wdpc\projekt\projekt\config.c
+	"config.h"
+
+1390985020 source:c:\users\kebab\documents\wdpc\projekt\projekt\hero.c
+	"hero.h"
+	"level.h"
+	<allegro.h>
+	"animation.h"
+	"zombie.h"
+	"config.h"
+
+1390766992 c:\users\kebab\documents\wdpc\projekt\projekt\hero.h
+	"helpers.h"
+	"animation.h"
+	<allegro.h>
+
+1391346380 source:c:\users\kebab\documents\wdpc\projekt\projekt\zombie.c
+	"zombie.h"
+	"hero.h"
+	"config.h"
+	<math.h>
+	"level.h"
+	<stdlib.h>
+
+1391346372 c:\users\kebab\documents\wdpc\projekt\projekt\zombie.h
+	"helpers.h"
+	"animation.h"
+	<allegro.h>
+
+1390128442 source:c:\users\kebab\documents\wdpc\projekt\projekt\states\mainmenu.c
+	"mainmenu.h"
+	"../GameManager.h"
+	"../loop.h"
+	"../config.h"
+
+1390080887 c:\users\kebab\documents\wdpc\projekt\projekt\states\mainmenu.h
+	<allegro.h>
+	<stdbool.h>
+	"../helpers.h"
+
+1391343909 source:c:\users\kebab\documents\wdpc\projekt\projekt\gamemanager.c
+	"GameManager.h"
+	"loop.h"
+	"States/mainmenu.h"
+	"States/options.h"
+
+1390080862 c:\users\kebab\documents\wdpc\projekt\projekt\gamemanager.h
+	"loop.h"
+
+1390122956 source:c:\users\kebab\documents\wdpc\projekt\projekt\helpers.c
+	"helpers.h"
+	<allegro.h>
+
+1388922991 source:c:\users\kebab\documents\wdpc\projekt\projekt\dictionary.c
+	"dictionary.h"
+	<stdio.h>
+	"config.h"
+
+1388765325 c:\users\kebab\documents\wdpc\projekt\projekt\dictionary.h
+
+1389012521 c:\users\kebab\documents\wdpc\projekt\projekt\animation.h
+	<allegro.h>
+
+1391344699 source:c:\users\kebab\documents\wdpc\projekt\projekt\animation.c
+	"animation.h"
+	"config.h"
+	<allegro.h>
+
+1390073368 c:\users\kebab\documents\wdpc\projekt\projekt\sounds.h
+
+1390664513 source:c:\users\kebab\documents\wdpc\projekt\projekt\states\options.c
+	"options.h"
+	<math.h>
+	<stdio.h>
+	"../tinydir.h"
+	"../loop.h"
+	"../GameManager.h"
+	"../config.h"
+	"../list.h"
+
+1390126744 c:\users\kebab\documents\wdpc\projekt\projekt\states\options.h
+	"../helpers.h"
+	"../list.h"
+
+1390129199 source:c:\users\kebab\documents\wdpc\projekt\projekt\list.c
+	"list.h"
+	<stdlib.h>
+
+1390129205 c:\users\kebab\documents\wdpc\projekt\projekt\list.h
+
+1389805952 c:\users\kebab\documents\wdpc\projekt\projekt\tinydir.h
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<dirent.h>
+	<sys/stat.h>
+	<strings.h>
+
